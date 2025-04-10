@@ -61,7 +61,7 @@ const Experience = () => {
           }}
         >
           My work experience as a software engineer and working on different
-          companies and projects.
+          locations and projects.
         </Desc>
 
         <VerticalTimeline>

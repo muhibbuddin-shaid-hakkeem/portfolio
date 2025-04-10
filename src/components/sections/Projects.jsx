@@ -98,14 +98,13 @@ const Projects = ({ openModal, setOpenModal }) => {
   return (
     <Container id="Projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Certifications Held</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          A wide range of certifications showcases my strong foundation in technical and leadership competencies.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
@@ -116,25 +115,19 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "web app"}
-            onClick={() => setToggle("web app")}
+            active={toggle === "Technical"}
+            onClick={() => setToggle("Technical")}
           >
-            WEB APP"S
+            TECHNICAL
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
+            active={toggle === "Leadership"}
+            onClick={() => setToggle("Leadership")}
           >
-            ANDROID APP'S
+            LEADERSHIP
           </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
-          >
-            MACHINE LEARNING
-          </ToggleButton>
+          
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
