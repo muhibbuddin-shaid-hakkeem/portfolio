@@ -9,7 +9,7 @@ export const Bio = {
   ],
   description:
   "Performance & Security Testing Specialist with over 13+ years of expertise in Performance Testing, Security Testing (DAST), and Quality Assurance. Proven track record across diverse domains including Banking, Insurance, Healthcare, and Retail. Currently leading Performance and Security Validation efforts for a leading UK-based bank, ensuring applications meet stringent Performance Acceptance Criteria (PAC) for scalability, reliability, and resilience, while proactively identifying and mitigating vulnerabilities through Dynamic Application Security Testing (DAST).\n\n With an Indian nationality I’ve worked across Belgium, Netherlands and India.",
-  github: "https://github.com/rishavchanda",
+  github: "https://github.com/muhibbuddin-shaid-hakkeem",
   resume:
     "https://drive.google.com/file/d/1NniTqidfQvLGIfJ_mKzUi4JUuKB13zU_/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/muhibbuddin-shaid-hakkeem-26a06921/",
